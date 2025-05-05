@@ -66,3 +66,37 @@ En él se configuran el `projectId` y `token` para acceder al contenido visual d
 > Este proyecto es parte del desarrollo visual y de experiencia de usuario de Odovent. Actualmente en fase de pruebas y conexión con backend.
 
 ```
+
+✅ Checklist para el equipo de desarrollo de Odovent Landing
+
+📂 Repositorio en GitHub:
+   URL: https://github.com/***TU_USUARIO***/***odovent-landing-react***
+   Tecnología: Next.js 13 + React 18 + Plasmic Loader
+   Diseño visual sincronizado desde Plasmic Studio
+
+🧑‍💻 Qué puede hacer el equipo:
+
+
+🔧 1. Clonar y trabajar localmente
+   git clone https://github.com/jmaciaal/odovent-landing-react.git
+   cd odovent-landing-react
+   npm install
+   npm run dev
+
+🎨 2. Editar visualmente en Plasmic
+   Los cambios en Plasmic se ven reflejados en tiempo real gracias al uso de plasmic-init.ts
+   No es necesario redeploy mientras se use Plasmic Loader
+
+🌐 3. Conectar backend o formularios
+   Pueden añadir funcionalidades (cotizaciones, leads, contacto) desde pages/index.tsx o creando nuevos componentes
+   Las acciones pueden conectarse a Monsbox, CRM propio o servicio de correo
+
+☁️ 4. Desplegar a producción
+   Ya está publicado en: https://odovent-landing.vercel.app
+   Al hacer cambios en GitHub, Vercel redeploya automáticamente
+
+🔒 5. (Futuro) Agregar variables de entorno
+   Para conectar APIs externas:
+   NEXT_PUBLIC_API_URL=https://***api.tudominio.com***
+   Se configuran desde:
+   Vercel → Project Settings → Environment Variables
